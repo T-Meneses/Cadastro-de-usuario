@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<header>
+</header>
+<body>
+<h2>CADASTRO DE USER</h2>
+<form>
+	<label for="fname">Primeiro nome:</label><br>
+	<input type="text" id="fname" name="fname" value="Exemplo:Jhon"><br><br>
+	
+	<label for="lname">SOBRENOME:</label><br>
+	<input type="text" id="lname" name="lname" value="Exemplo:Fonseca"><br><br>
+	
+	<label for="dia">DATA NASCIMENTO:</label><br>
+	<input type="date" id="dia" name="dia" value=""><br><br>
+	
+	<label for="file">SELECIONE UM ARQUIVO:</label><br>
+	<input type="file" id="file" name="file" multiple=""><br><br>
+	
+	<label for="cpfname">CPF:</label><br>
+	<input type="text" id="cpfname" name="cpfname" value="999.999.999-99"><br><br>
+	<h4>Qual linguagem você gosta:</h4><br>
+	<label for="html">HTML:</label>
+	<input type="radio" id="html" name="language" value="HTML">	
+	<label for="java">JAVA:</label>
+	<input type="radio" id="java" name="language" value="JAVA">	
+	<label for="css">CSS:</label>
+	<input type="radio" id="css" name="language" value="CSS"><br><br>
+	<h4>Qual transporte você gosta:</h4><br>
+	<label for="bike">BICICLETA:</label>
+	<input type="checkbox" id="bike" name="bike" value="BICICLETA">
+	<label for="car">CARRO:</label>
+	<input type="checkbox" id="car" name="car" value="CARRO">
+	<label for="barco">BARCO:</label>
+	<input type="checkbox" id="barco" name="barco" value="BARCO"><br><br>
+	<h4>Escreva suas informações:</h4>
+	<input list="browsers" name="browsers"></input><br>
+	<datalist id="browsers">
+		<option value="Firefox">
+		<option value="Chrome">
+		<option value="EDGE">
+	</datalist><br>
+    <label for "cars">Mudar Carros:</label>
+	<select id="cars" name="cars">
+		<option value="uno">UNO</option>
+		<option value="celta">CELTA</option>
+	</select><br>	
+	
+	<textarea name="message" rows="10" cols="30">O gato mia...</textarea>
+		
+</form>
+</body>
+</html>
